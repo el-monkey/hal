@@ -38,6 +38,12 @@ Once, you have `SSH`ed into the VM. You can navigate to the project directory.
 $ cd /mnt/project
 ```
 
+## Running Eunit Tests
+
+```bash
+$ ./rebar3 eunit
+```
+
 ## Generating Documentation
 
 ```bash
