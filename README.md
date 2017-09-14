@@ -1,5 +1,9 @@
 # hal
+
 A really simple Hal+Json library for Erlang
+
+This is my first attempt at creating a very basic Erlang/OTP library application
+to generate Hal+Json data structures.
 
 # Setting Up
 

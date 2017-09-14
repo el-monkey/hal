@@ -1,15 +1,15 @@
 {application, hal,
- [{description, "An OTP library"},
+ [{description, "My very first basic hal library"},
   {vsn, "0.1.0"},
-  {registered, []},
+  {registered, [hal]},
   {applications,
    [kernel,
     stdlib
    ]},
   {env,[]},
-  {modules, []},
+  {modules, [hal]},
 
-  {maintainers, []},
+  {maintainers, ["david@el-monkey.co.uk"]},
   {licenses, ["Apache 2.0"]},
-  {links, []}
+  {links, ["https://github.com/el-monkey/hal"]}
  ]}.
