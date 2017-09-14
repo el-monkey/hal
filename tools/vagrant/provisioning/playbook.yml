@@ -21,8 +21,6 @@
 
     - name: download an install erlang solutions rpm
       yum:
-        name:  https://packages.erlang-solutions.com/erlang-solutions-1.0-1.noarch.rpm
+        name:  http://packages.erlang-solutions.com/site/esl/esl-erlang/FLAVOUR_1_general/esl-erlang_20.0-1~centos~7_amd64.rpm  
         state: present
 
-    - name: install erlang
-      yum: name=erlang state=latest

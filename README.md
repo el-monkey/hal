@@ -31,3 +31,15 @@ To exit the VM simply
 ```bash
 $ exit
 ```
+
+Once, you have `SSH`ed into the VM. You can navigate to the project directory.
+
+```bash
+$ cd /mnt/project
+```
+
+## Generating Documentation
+
+```bash
+$ ./rebar3 edoc
+```
